@@ -1,0 +1,31 @@
+{
+  "name": "Extension",
+  "description": "Login function without using any password!",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup",
+    "default_icons": {
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png",
+      "128": "128.png"
+    }
+  },
+  "permissions": ["sessions", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "https://localhost"],
+      "js": [
+        "./config/firebase.js",
+        "./hooks/useLog.js",
+        "./layouts/AuthLayout.js",
+        "./pages/Home.js",
+        "./pages/SignIn.js",
+        "./Routes/Router.js",
+        "./App.js"
+      ]
+    }
+  ]
+}

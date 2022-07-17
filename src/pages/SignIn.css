@@ -1,0 +1,17 @@
+.basarili {
+  margin: 20px;
+  background-color: black;
+  width: 350px;
+  height: 1px;
+}
+.bg {
+  width: 400px;
+  height: 400px;
+}
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
