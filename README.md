@@ -1,3 +1,5 @@
+I developed an extension where people can log into the system with their google account or confirmation email without the hassle of creating a password.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
